@@ -1,4 +1,4 @@
-#Password Generator
+## Password Generator
 
 This is a simple React app that creates strong and unique passwords effortlessly.
 
