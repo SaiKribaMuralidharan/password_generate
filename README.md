@@ -1,6 +1,6 @@
-# My React App
+#Password Generator
 
-This is a simple React app that demonstrates how to use the React library to create a user interface.
+This is a simple React app that creates strong and unique passwords effortlessly.
 
 ## Dependencies
 
@@ -9,7 +9,6 @@ This app depends on the following libraries:
 * React
 * ReactDOM
 * React Bootstrap
-* React Confirm Alert
 * React Toastify
 
 ## Installation
