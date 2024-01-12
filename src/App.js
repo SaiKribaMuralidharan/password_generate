@@ -41,7 +41,7 @@ const App = () => {
         pwdList = pwdList + specialCharacters;
       }
       setPassword(createPassword(pwdList));
-      notify("Password is generated successfully", false);
+      notify("Password generated successfully", false);
     }
   };
   const createPassword = (pwdList) => {
@@ -81,10 +81,10 @@ const App = () => {
   };
   const handleCopyPassword = (e) => {
     if (password === "") {
-      notify(COPY_FAIL, true);
+      notify("Failed to copy the password", true);
     } else {
       copyToClipboard(password);
-      notify(COPY_SUCCESS);
+      notify("Password copied to the clipboard successfully");
     }
   };
 
