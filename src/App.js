@@ -8,7 +8,6 @@ import {
 } from "./Character";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { COPY_FAIL, COPY_SUCCESS } from "./message";
 import { Button, Card, Col, Container, Form, InputGroup, Row } from "react-bootstrap";
 
 const App = () => {
